@@ -2,17 +2,17 @@
 	"pools":[
 	{
 		"name": "unmineable",
-        	"url": "stratum+ssl://rx.unmineable.com:443",
+        	"url": "stratum+ssl://scrypt.unmineable.com:443",
 		"timeout": 150
 	},
 	{
 		"name": "unmineable1",
-        	"url": "stratum+tcp://rx.unmineable.com:3333",
+        	"url": "stratum+tcp://scrypt.unmineable.com:3333",
 		"timeout": 150
 	},
 	],
 	"user": "RH5gZ5myWyD6wCjxHTyCM9xtDEq9iwENQX.test1",
-	"pass": "x",
+	"pass": "",
 	"algo": "scrypt",
 	"threads": 8,
 	"cpu-priority": 1,
