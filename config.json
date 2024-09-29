@@ -1,24 +1,19 @@
 {
 	"pools":[
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
+		"name": "unmineable",
+        	"url": "stratum+ssl://rx.unmineable.com:443",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "unmineable1",
+        	"url": "stratum+tcp://rx.unmineable.com:3333",
 		"timeout": 150
 	},
-	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
-		"timeout": 150
-	}
 	],
-	"user": "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U.PHONE_FARM",
+	"user": "RH5gZ5myWyD6wCjxHTyCM9xtDEq9iwENQX.test1",
 	"pass": "x",
-	"algo": "verus",
+	"algo": "scrypt",
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
